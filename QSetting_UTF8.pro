@@ -17,9 +17,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    QSetting_UTF8.cpp
+    QSetting_UTF8.cpp \
+    QSetting_UTF8Private.cpp
 
 HEADERS += \
+    QSetting_UTF8Private.h \
     QSetting_UTF8_global.h \
     QSetting_UTF8.h
 
