@@ -1,0 +1,12 @@
+#ifndef QSETTING_UTF8_GLOBAL_H
+#define QSETTING_UTF8_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QSETTING_UTF8_LIBRARY)
+#  define QSETTING_UTF8_EXPORT Q_DECL_EXPORT
+#else
+#  define QSETTING_UTF8_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QSETTING_UTF8_GLOBAL_H
